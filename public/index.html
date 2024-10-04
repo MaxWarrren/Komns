@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Komns</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cf26409aa9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <div id="side-nav">
+        <div id="side-nav-header">
+          <button id="side-nav-toggle">
+            <img src="icons/side-nav-icon.png">
+          </button>
+          
+        </div>
+        <p>Recent</p>
+        <div id="channelList">
+          <button class="channelJoinBtn"><i class="bi bi-chat-left"></i>Mike's Channel</button>
+          <button class="channelJoinBtn"><i class="bi bi-chat-left"></i>Pubert's Channel</button>
+          <button class="channelJoinBtn"><i class="bi bi-chat-left"></i>Jojo's Channel</button>
+          <button class="channelJoinBtn"><i class="bi bi-chat-left"></i>Jamal's Channel</button>
+
+        </div>
+    </div>
+    <div id="channelContainer">
+        <p id="channelHeader"></p>
+        
+        <div id="chatHistoryContainer">
+            <!--<div class="userMessage">
+                <span class="msgSender">User2433</span>
+                <span class="msgTime">10:57</span>
+                <p class="msgText">Sample Message</>
+            </div> Sample message for reference-->
+        </div>
+        <form action="">
+            <input id="m" type="text" placeholder="Type your message here..." autocomplete="off">
+        </form>
+        
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="client.js"></script>
+  </body>
+</html>
