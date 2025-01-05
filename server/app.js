@@ -12,7 +12,7 @@ const port = 3000;
 
 const winston = require("winston");
 const readline = require("readline");
-const uri = "mongodb+srv://Admin_Maxwell:Mizzou2024@KomnsAppData.bsxpq.mongodb.net/?retryWrites=true&w=majority&appName=KomnsAppData"; 
+const uri = "nice try feds"; 
 
 //import classes
 const Channel = require("./channel.js");
